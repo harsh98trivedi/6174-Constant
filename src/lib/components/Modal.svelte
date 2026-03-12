@@ -13,7 +13,7 @@
 {#if $showInfoModal}
   <div 
     transition:fade={{ duration: 200 }}
-    class="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6"
+    class="fixed inset-0 z-[100] flex justify-center items-start sm:items-center overflow-y-auto p-4 sm:p-6"
   >
     <!-- Backdrop -->
     <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -26,9 +26,9 @@
     <!-- Modal Content -->
     <div 
       transition:scale={{ duration: 300, start: 0.95 }}
-      class="relative w-full max-w-2xl max-h-[90vh] glass rounded-[2rem] sm:rounded-[2.5rem] flex flex-col shadow-2xl border border-white/10 overflow-hidden"
+      class="relative w-full max-w-2xl my-auto glass rounded-[2rem] sm:rounded-[2.5rem] flex flex-col shadow-2xl border border-white/10 overflow-hidden"
     >
-      <div class="overflow-y-auto p-6 sm:p-12 space-y-6 sm:space-y-8 custom-scrollbar">
+      <div class="p-6 sm:p-12 space-y-6 sm:space-y-8 custom-scrollbar">
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-3">
             <div class="bg-primary/20 p-2 sm:p-3 rounded-xl sm:rounded-2xl">
