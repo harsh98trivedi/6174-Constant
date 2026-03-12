@@ -10,6 +10,7 @@ lerna-debug.log*
 # Build and Temp files
 node_modules
 dist
+docs
 dist-ssr
 *.local
 
