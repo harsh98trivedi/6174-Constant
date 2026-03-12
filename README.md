@@ -1,6 +1,6 @@
 # 6174 | Kaprekar's Constant Visualisation
 
-![Meta Image](./src/images/meta.jpg)
+![Meta Image](https://repository-images.githubusercontent.com/1179405145/d9e45703-633d-4731-b128-2af1f017dfb9)
 
 An interactive, premium web application built with **Svelte** and **Tailwind CSS** to visualize the mathematical routine that leads to the mystical constant 6174. This project is a tribute to the beauty of number theory and the groundbreaking work of Indian mathematician **D.R. Kaprekar**.
 
