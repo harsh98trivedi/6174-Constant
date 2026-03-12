@@ -12,7 +12,7 @@ export default defineConfig({
     port: 5173,
   },
   build: {
-    outDir: 'docs',
+    outDir: 'docs', // Output to docs for GitHub Actions / Manual Deploy
     emptyOutDir: true,
   }
 })
