@@ -31,6 +31,15 @@ dist-ssr
 .env
 .env.*
 !.env.example
- package-lock.json
- yarn.lock
- pnpm-lock.yaml
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Project Specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local Tooling
+.antigravity/
+brain/
+.gemini/
